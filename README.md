@@ -29,13 +29,23 @@ Datasets include HDI, Tax, and Population datasets sourced from GapMinder reposi
 
 ## Data Preprocessing
 
+![image](https://github.com/Noahkandie/HDI-Analysis-2017-Using-R/assets/83200580/125d1d43-5778-4810-b054-f88d24a602aa)
+
+
 Steps involve merging relevant columns, detecting outliers, and handling missing values. The HDI column is encoded, resulting in a clean dataset with variables such as country, tax rate, population growth rate, and HDI.
 
 ## Exploratory Data Analysis
+![image](https://github.com/Noahkandie/HDI-Analysis-2017-Using-R/assets/83200580/6f695a2b-cc15-4ae3-8327-cfd197a5789a)
+
 
 The HDI distribution histogram shows two contrasting groups, indicating two categories of countries in terms of development. The correlation matrix reveals weak to moderate correlations, with tax and HDI showing a weak positive correlation, population and HDI a moderate negative correlation, and tax and population a weak negative correlation.
 
 ## Linear Regression Modeling
+![image](https://github.com/Noahkandie/HDI-Analysis-2017-Using-R/assets/83200580/082d3f94-236a-45a6-86c5-deae7b4c1103)
+
+
+![image](https://github.com/Noahkandie/HDI-Analysis-2017-Using-R/assets/83200580/35fa3fb8-d136-4dac-8ad9-8b5df6db9927)
+
 
 Linear regression models for tax and population as predictors of HDI show statistical significance. The coefficient for tax suggests a positive association with HDI, while the coefficient for population implies a negative impact. Diagnostic plots indicate potential nonlinearity.
 
